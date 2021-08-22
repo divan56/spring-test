@@ -29,4 +29,7 @@ private Horse knightsHorse;
                 ", knightsSword=" + knightsSword +
                 '}';
     }
+    public void getFeats() {
+        feats.forEach(System.out::println);
+    }
 }

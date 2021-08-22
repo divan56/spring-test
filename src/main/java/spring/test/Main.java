@@ -11,5 +11,8 @@ public class Main {
 
         Knight knight = applicationContext.getBean(Knight.class);
         System.out.println(knight.getInfo());
+        knight.addFeat("Defeated the dragon");
+        knight.addFeat("Saved the princess");
+        knight.getFeats();
     }
 }
