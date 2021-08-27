@@ -14,5 +14,7 @@ public class Main {
         knight.addFeat("Defeated the dragon");
         knight.addFeat("Saved the princess");
         knight.getFeats();
+
+        applicationContext.close();
     }
 }
